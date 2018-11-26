@@ -1,0 +1,85 @@
+.toast {
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.popUp {
+  animation-name: popUp;
+}
+.popOut {
+  animation-name: popOut;
+}
+.animate {
+  animation-duration: 800ms;
+}
+@-moz-keyframes popUp {
+  from {
+    opacity: 1;
+    transform: translateY(200%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes popUp {
+  from {
+    opacity: 1;
+    transform: translateY(200%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes popUp {
+  from {
+    opacity: 1;
+    transform: translateY(200%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes popUp {
+  from {
+    opacity: 1;
+    transform: translateY(200%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes popOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}
+@-webkit-keyframes popOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}
+@-o-keyframes popOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}
+@keyframes popOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}

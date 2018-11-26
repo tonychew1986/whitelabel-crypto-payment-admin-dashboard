@@ -1,0 +1,39 @@
+.loginFormTabs .loginFormTab {
+  float: left;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin-right: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.loginForm {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 15px 20px;
+}
+.loginForm .loginFormIcon {
+  padding-bottom: 15px;
+}
+.loginForm .loginFormIcon img {
+  width: 180px;
+}
+.loginForm .loginFormTitle {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.loginForm .loginFormField {
+  padding: 5px 0px;
+}
+.loginForm .loginFormField .loginFormFieldTitle {
+  font-weight: bold;
+}
+.loginForm .loginFormFieldForgotPassword {
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.loginForm .loginFormError {
+  padding: 10px 0px;
+}

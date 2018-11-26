@@ -1,0 +1,48 @@
+.Modal {
+  position: absolute;
+  width: 50%;
+  max-height: 50%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px 40px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.modalInner {
+  position: relative;
+}
+.modalInner .modalClose {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+.modalInner .modalContent {
+  text-align: center;
+  padding-top: 10px;
+}
+.modalInner .modalContent .modalContentTitle {
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.modalInner .modalContent .modalContentDescription {
+  color: #bbb;
+}
+.modalInner .modalContent .modalContentActions {
+  padding-top: 20px;
+}
+.modalInner .modalContent .modalContentActions .modalContentAction {
+  float: left;
+  width: calc(50% - 20px);
+  margin: 0px 10px;
+}
